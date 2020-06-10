@@ -13,7 +13,7 @@ class MathTest {
 	
 	@Test
 	void testDivide() {
-		assertEquals(2, Math.divide(10,5));
+		assertEquals(3, Math.divide(10,5));
 	}
 
 }
