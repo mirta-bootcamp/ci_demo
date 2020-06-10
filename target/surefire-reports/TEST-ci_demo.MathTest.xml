@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ci_demo.MathTest" time="0.035" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ci_demo.MathTest" time="0.024" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-14-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/mirta/eclipse-workspace/ci_demo/target/surefire/surefirebooter9702603775649498229.jar /home/mirta/eclipse-workspace/ci_demo/target/surefire 2020-06-10T08-42-50_752-jvmRun1 surefire9290612217573018842tmp surefire_015695803300542270568tmp"/>
+    <property name="sun.java.command" value="/home/mirta/eclipse-workspace/ci_demo/target/surefire/surefirebooter1875014470050098885.jar /home/mirta/eclipse-workspace/ci_demo/target/surefire 2020-06-10T08-47-46_435-jvmRun1 surefire6018396626338408687tmp surefire_015382004869892934718tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/mirta/eclipse-workspace/ci_demo/target/test-classes:/home/mirta/eclipse-workspace/ci_demo/target/classes:/home/mirta/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/home/mirta/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/home/mirta/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/mirta/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/mirta/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/home/mirta/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/home/mirta/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/home/mirta/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/mirta/eclipse-workspace/ci_demo/target/surefire/surefirebooter9702603775649498229.jar"/>
+    <property name="surefire.real.class.path" value="/home/mirta/eclipse-workspace/ci_demo/target/surefire/surefirebooter1875014470050098885.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.1+7-Ubuntu-1ubuntu1"/>
     <property name="user.name" value="mirta"/>
@@ -50,5 +50,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="testSum" classname="ci_demo.MathTest" time="0.019"/>
+  <testcase name="testSum" classname="ci_demo.MathTest" time="0.014"/>
+  <testcase name="testDivide" classname="ci_demo.MathTest" time="0"/>
 </testsuite>
